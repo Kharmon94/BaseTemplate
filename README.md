@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 71e0e0f966b81f9aafbf909cea3474c138cf4bdb
 # README
 
 This README would normally document whatever steps are necessary to get the
@@ -22,3 +26,9 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+<<<<<<< HEAD
+=======
+=======
+# BaseTemplate
+>>>>>>> 51db627b1a823746ff79d440f92063488dc6df18
+>>>>>>> 71e0e0f966b81f9aafbf909cea3474c138cf4bdb

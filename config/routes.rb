@@ -1,9 +1,18 @@
 Rails.application.routes.draw do
+<<<<<<< HEAD
 namespace :admin do
     root to: 'base#index'
   end
 
   resources :posts
+=======
+  resources :posts
+  namespace :admin do
+      resources :users
+
+      root to: "users#index"
+    end
+>>>>>>> 71e0e0f966b81f9aafbf909cea3474c138cf4bdb
   devise_for :users
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 

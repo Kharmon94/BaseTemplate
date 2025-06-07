@@ -65,7 +65,12 @@ group :test do
 end
 
 gem "devise", "~> 4.9"
+<<<<<<< HEAD
 gem "cancancan", "~> 3.6"
+=======
+gem "pundit", "~> 2.5"
+gem "administrate", "~> 0.19.0"
+>>>>>>> 71e0e0f966b81f9aafbf909cea3474c138cf4bdb
 gem "heroicon", "~> 1.0"
 gem "meta-tags", "~> 2.22"
 gem "aws-sdk-s3", "~> 1.189"
