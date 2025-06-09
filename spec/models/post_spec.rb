@@ -1,5 +1,8 @@
 require 'rails_helper'
 
 RSpec.describe Post, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+  it "belongs to a user" do
+    assoc = described_class.reflect_on_association(:user)
+    expect(assoc.macro).to eq(:belongs_to)
+  end
 end
